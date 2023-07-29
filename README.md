@@ -95,3 +95,15 @@ The cost of buying 27 tickets for a draw is £54, so the cost of buying these ti
 A standard ticket costs £2 and 45% of proceeds are paid out in prizes, so the expected return might be £0.90. Since £20.01 is 37% of £54, this seems to represent a worse return (given the assumptions made) than buying a single lottery ticket.
 
 There are just 27 tickets that win the jackpot, so the contribution to the prize total from these is £135,000,000. This can be subtracted from the total and replaced by a different figure to change the jackpot size assumption. The assumptions around the bonus ball and 'Lucky dip' are harder to unpick without editing the code.
+
+## How often do you make a profit?
+
+Matt Parker tweeted that there is a 1.5% chance of making a profit based on this page, which this page does not say. To answer this question, `guaranteed-win-profit-loss.py` runs through the amount won in each draw and counts when this is a profit cf. £54 to buy 27 tickets. Same assumptions about prize value as above.
+
+Last line of output from `guaranteed-win-profit-loss.py`:
+
+```
+Draw 45057474: (54, 55, 56, 57, 58, 59): 7 tickets won £5000006 (profit) (2249125 profits so far).
+```
+
+So the 27 tickets make a profit in 2249125 profit draws out of 45057474 - that's 4.99% of draws.

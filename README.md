@@ -98,7 +98,7 @@ There are just 27 tickets that win the jackpot, so the contribution to the prize
 
 ## How often do you make a profit?
 
-Matt Parker tweeted that there is a 1.5% chance of making a profit based on this page, which this page does not say. To answer this question, `guaranteed-win-profit-loss.py` runs through the amount won in each draw and counts when this is a profit cf. £54 to buy 27 tickets. Same assumptions about prize value as above.
+Matt Parker [tweeted](https://twitter.com/standupmaths/status/1685346409652846592) that there is a 1.5% chance of making a profit based on this page, which this page does not say. To answer this question, `guaranteed-win-profit-loss.py` runs through the amount won in each draw and counts when this is a profit cf. £54 to buy 27 tickets. Same assumptions about prize value as above.
 
 Last line of output from `guaranteed-win-profit-loss.py`:
 
